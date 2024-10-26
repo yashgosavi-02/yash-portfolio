@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+ /** @type {import('tailwindcss').Config} */
 module.exports = {
     darkMode: ["class"],
     content: [
@@ -7,6 +7,19 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+	container : {
+		center : true,
+		padding : "15px"
+	},
+	screens : {
+		sm : "640px",
+		md : "768px",
+		lg : "940px",
+		xl : "1200px"
+	},
+	fontFamily:{
+		primary : "var(--font-jetbrainsMono)",
+	},
   	extend: {
   		colors: {
   			background: 'var(--background)',
