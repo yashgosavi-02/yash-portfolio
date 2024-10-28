@@ -14,6 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Yash Gosavi",
   description: "Personal Protfolio of Yash Gosavi",
+  icon : '/public/favicon.ico',
 };
 
 export default function RootLayout({ children }) {
