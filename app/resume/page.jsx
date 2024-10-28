@@ -35,7 +35,7 @@ const about = {
     },
     {
       fieldName : "Location",
-      fieldValue : "Pune, India"
+      fieldValue : "Aurangabad, India"
     },
     {
       fieldName : "Freelance",
