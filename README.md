@@ -62,6 +62,7 @@ npm run dev
 
 ## File Structure
 Here's a basic outline of the project's folder structure:
+
 ![alt text](image.png)
 
 ## Contributing
