@@ -1,16 +1,16 @@
 "use client";
 
-import {FaHtml5, FaCss3, FaJs, FaJava, FaNodeJs, FaReact, FaGit, FaGithub, FaFigma} from "react-icons/fa";
+import {FaHtml5, FaCss3, FaJs, FaJava, FaNodeJs, FaReact,FaFigma} from "react-icons/fa";
 
 import {
-  SiTailwindcss, SiExpress, SiMysql, SiMongodb, SiMongoose, SiNpm, SiNextdotjs, SiMicrosoftazure, SiAmazonwebservices, SiPostman
+  SiTailwindcss,SiMysql, SiMongodb, SiNextdotjs, SiPostman
 } from "react-icons/si"
 
 import {Tabs, TabsContent, TabsList, TabsTrigger} from '@/components/ui/tabs';
 
 import {Tooltip, TooltipContent, TooltipProvider,TooltipTrigger} from "@/components/ui/tooltip";
 
-import {ScrollArea, ScrollBar} from "@/components/ui/scroll-area";
+import {ScrollArea} from "@/components/ui/scroll-area";
 
 import {motion} from "framer-motion";
 
@@ -19,7 +19,7 @@ import {motion} from "framer-motion";
 // about me
 const about = {
   title : "About Me",
-  description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A inventore necessitatibus id itaque impedit quo sit, debitis velit!",
+  description : "I'm Yash Gosavi, a passionate full-stack developer with a focus on building seamless, user-centered digital experiences. With hands-on experience in web and Java development, I bring a blend of technical expertise and creativity to every project. I'm currently based in Aurangabad, India, and am open to freelance opportunities where I can further enhance my skills and contribute to impactful projects.",
   info :[
     {
       fieldName : "Name",
@@ -52,17 +52,18 @@ const about = {
   ]
 }
 
+
 // experience data
 const experience = {
   icon : '/assets/resume/badge.svg',
   title : 'My Experience',
-  description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A inventore necessitatibus id itaque impedit quo sit, debitis velit!',
+  description :'As a recent graduate, I’ve had the opportunity to work across multiple roles, gaining valuable experience in web development, team collaboration, and project coordination. From interning as a React Developer to taking on responsibilities in media management, I bring enthusiasm, adaptability, and a strong technical foundation to each role.',
   items :[
-    {
-      company : 'Tata Consultancy Services',
-      position : 'Upcoming Systems Engineer',
-      duration : 'Nov 2024 - Present'
-    },
+    // {
+    //   company : 'Tata Consultancy Services',
+    //   position : 'Upcoming Systems Engineer',
+    //   duration : 'Nov 2024 - Present'
+    // },
     {
       company : 'SlashMark',
       position : 'React Developer',
@@ -79,18 +80,19 @@ const experience = {
       duration : 'Mar 2023 - Aug 2023'
     },
     {
-      company : 'Persistent Systens',
-      position : 'Martian Progam Intern',
+      company : 'Persistent Systems',
+      position : 'Martian Program Intern',
       duration : 'Mar 2023 - June 2023'
     },
-]
+  ]
 }
+
 
 // education data
 const education = {
   icon : '/assets/resume/cap.svg',
   title : 'My Education',
-  description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A inventore necessitatibus id itaque impedit quo sit, debitis velit!',
+  description : 'I have built a strong foundation in computer science and engineering, complemented by specialized training in full-stack development. Through my B.Tech degree and hands-on experience with the MERN stack, I’ve developed both theoretical knowledge and practical skills that drive my passion for software development.',
   items :[
     {
       institute : 'Online Course Platform',
@@ -98,7 +100,7 @@ const education = {
       duration : 'Summer 2024'
     },
     {
-      institute : 'WIT,Solapur',
+      institute : 'WIT, Solapur',
       degree : 'B.Tech (CSE)',
       duration : '2020 - 2024'
     },
@@ -112,14 +114,14 @@ const education = {
       degree : 'Secondary',
       duration : '2017 - 2018'
     }
-    
-]
+  ]
 }
+
 
 // skills data
 const skills = {
   title : 'My Skills',
-  description : 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. A inventore necessitatibus id itaque impedit quo sit, debitis velit!',
+  description :'With a good foundation in both front-end and back-end development, I’m skilled in building full-stack applications using modern frameworks and tools. My expertise spans from core languages like JavaScript and Java to popular frameworks like React, Next.js, and Node.js, enabling me to create dynamic, responsive, and user-friendly digital experiences.',
   skillset : [
     {name : 'JavaScript', icon : <FaJs />},
     {name : 'Java', icon : <FaJava />},

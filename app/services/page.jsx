@@ -8,29 +8,29 @@ const services = [
   {
     num : "01",
     text : "Web Development",
-    description : "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    href: ""
+    description : "Designing and building responsive, user-centered websites with a focus on functionality and seamless user experience using modern web technologies.",
+    href: "/contact"
   },
   {
     num : "02",
     text : "Software Development",
-    description : "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    href: ""
+    description : "Developing robust software applications with a structured approach, utilizing Java and other technologies to deliver efficient and scalable solutions.",
+    href: "/contact"
   },
   {
     num : "03",
     text : "UI/UX Design",
-    description : "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    href: ""
+    description : "Creating intuitive and visually engaging interfaces that prioritize user experience and accessibility for all users.",
+    href: "/contact"
   },
   {
     num : "04",
     text : "SEO",
-    description : "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    href: ""
+    description : "Optimizing websites to enhance search engine visibility and improve user reach, ensuring content aligns with SEO best practices.",
+    href: "/contact"
   }
-  
 ]
+
 
 const Services = () => {
   return (

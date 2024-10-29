@@ -17,35 +17,37 @@ import WorkSliderButtons from "@/components/WorkSliderButtons";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack: [{ name: "HTML 5" }, { name: "CSS 3" }, { name: "JavaScript" }],
+    category: "Frontend",
+    title: "Insurance And Investment Website",
+    description: "A responsive site for exploring insurance and investment plans with a clean, intuitive UI built using React and Tailwind CSS.",
+    stack: [{ name: "React" }, { name: "Tailwind CSS" }],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "https://github.com/yashgosavi-02/Insurance-Investment-Website-Frontend",
+    github: "https://github.com/yashgosavi-02/Insurance-Investment-Website-Frontend",
   },
   {
     num: "02",
-    category: "full stack",
-    title: "project 2",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" }],
+    category: "Fullstack",
+    title: "VidTube - A Video Streaming Platform",  
+    description: "A video streaming platform with a smooth user experience, built using React, Tailwind CSS, and Express for secure, efficient streaming.",
+    stack: [{ name: "React" }, { name: "Tailwind CSS" }, { name: "Express" }],
     image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    live: "https://github.com/yashgosavi-02/VidTube",
+    github: "https://github.com/yashgosavi-02/VidTube",
   },
   {
     num: "03",
-    category: "frontend",
-    title: "project 3",
-    description: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
+    category: "Frontend",
+    title: "Foodie - Food Ordering Website",
+    description: "A user-friendly food ordering site with responsive design, allowing easy browsing and ordering. Built with React and Tailwind CSS.",
+    stack: [{ name: "React" }, { name: "Tailwind CSS" }],
     image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    live: "https://github.com/yashgosavi-02/Foodie",
+    github: "https://github.com/yashgosavi-02/Foodie",
   },
 ];
+
+
 
 const Project = () => {
   const [project, setProject] = useState(projects[0]);
@@ -128,7 +130,7 @@ const Project = () => {
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     {/* image */}
                     <div className="relative w-full h-full">
-                    <Image src={project.image} fill className="object-cover" alt="project-image" />
+                    <Image src={project.image} fill className='object-fill' alt="project-image" />
                     </div>
                  </div>
                 </SwiperSlide>
