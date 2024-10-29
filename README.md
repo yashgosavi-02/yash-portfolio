@@ -1,4 +1,4 @@
-# Yash's Portfolio
+# Yash's Portfolio (Under Construction 🚧)
 
 This repository contains the source code for my personal portfolio website, showcasing my projects, skills, and experiences. The site is designed to provide a comprehensive overview of my professional background, including projects, skills, and contact options.
 
@@ -62,6 +62,7 @@ npm run dev
 
 ## File Structure
 Here's a basic outline of the project's folder structure:
+
 ![alt text](image.png)
 
 ## Contributing
