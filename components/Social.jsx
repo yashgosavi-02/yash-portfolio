@@ -1,13 +1,10 @@
 import Link from "next/link";
-import {FaTwitter , FaGithub, FaLinkedin} from "react-icons/fa";
+import {FaGithub, FaLinkedin} from "react-icons/fa";
 
-const GITHUB_URL = process.env.NEXT_PUBLIC_GITHUB_URL;
-const LINKEDIN_URL = process.env.NEXT_PUBLIC_LINKEDIN_URL;
 
 const socials = [
-    {icon : <FaGithub/>, path : {GITHUB_URL}},
-    {icon : <FaLinkedin/>, path : {LINKEDIN_URL}},
-    // {icon : <FaTwitter/>, path : ""}
+    {icon : <FaGithub/>, path : 'https://github.com/yashgosavi-02'},
+    {icon : <FaLinkedin/>, path : 'https://www.linkedin.com/in/yash-gosavi02/'},
 ]
 const Social = ({containerStyles, iconStyles}) => {
   return (

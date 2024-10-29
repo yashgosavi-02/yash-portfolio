@@ -7,7 +7,6 @@ import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrig
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const FORMSPREE_URL = process.env.NEXT_PUBLIC_FORMSPREE_URL;
 const info = [
   {
     icon: <FaPhoneAlt />,
@@ -38,7 +37,7 @@ const Contact = () => {
           {/* form */}
           <div className="xl:w-[54%] order-2 xl:order-none">
             <form
-              action={FORMSPREE_URL} 
+              action="https://formspree.io/f/manyqgyg"
               method="POST"
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
             >

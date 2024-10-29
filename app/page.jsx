@@ -5,7 +5,6 @@ import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
-const CV_URL = process.env.NEXT_PUBLIC_CV_URL;
 const Home = () => {
   return (
     <section className="h-full">
@@ -20,7 +19,7 @@ const Home = () => {
 
             {/* button and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <Button onClick={() => window.open(CV_URL, "_blank")} variant = "outline" size="lg" className="uppercase flex items-center gap-2">
+              <Button onClick={() => window.open("https://drive.google.com/file/d/1DzKhP5ofGHnJscSTZ7RwDkhdMfK296mc/view?usp=sharing", "_blank")} variant = "outline" size="lg" className="uppercase flex items-center gap-2">
                 <span > Download CV </span>
                 <FiDownload className="text-x;"/>
               </Button>
