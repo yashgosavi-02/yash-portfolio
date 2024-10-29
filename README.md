@@ -1,4 +1,4 @@
-# Yash's Portfolio (Under Construction 🚧)
+# Yash's Portfolio
 
 This repository contains the source code for my personal portfolio website, showcasing my projects, skills, and experiences. The site is designed to provide a comprehensive overview of my professional background, including projects, skills, and contact options.
 
